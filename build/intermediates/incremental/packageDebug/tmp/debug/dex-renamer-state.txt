@@ -1,0 +1,4 @@
+#Mon Jul 24 17:15:14 CST 2023
+base.0=/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

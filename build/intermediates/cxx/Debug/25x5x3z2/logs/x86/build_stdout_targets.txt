@@ -1,0 +1,73 @@
+ninja: Entering directory `/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86'
+[1/45] Building C object espeakng/src/ucd-tools/CMakeFiles/ucd.dir/src/scripts.c.o
+[2/45] Building C object espeakng/src/ucd-tools/CMakeFiles/ucd.dir/src/categories.c.o
+[3/45] Building C object espeakng/src/ucd-tools/CMakeFiles/ucd.dir/src/ctype.c.o
+[4/45] Building C object CMakeFiles/ttsespeak.dir/jni/eSpeakService.c.o
+[5/45] Building C object espeakng/src/ucd-tools/CMakeFiles/ucd.dir/src/case.c.o
+[6/45] Building C object espeakng/CMakeFiles/sonic.dir/android/.cxx/Debug/25x5x3z2/x86/_deps/sonic-git-src/sonic.c.o
+[7/45] Building C object espeakng/src/ucd-tools/CMakeFiles/ucd.dir/src/proplist.c.o
+[8/45] Building C object espeakng/src/ucd-tools/CMakeFiles/ucd.dir/src/tostring.c.o
+[9/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/error.c.o
+[10/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/mnemonics.c.o
+[11/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/common.c.o
+[12/45] Linking C static library espeakng/src/ucd-tools/libucd.a
+[13/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/ieee80.c.o
+[14/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/compiledict.c.o
+[15/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/intonation.c.o
+[16/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/encoding.c.o
+[17/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/compiledata.c.o
+[18/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/phoneme.c.o
+[19/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/langopts.c.o
+[20/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/phonemelist.c.o
+[21/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/setlengths.c.o
+[22/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/readclause.c.o
+[23/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/numbers.c.o
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/libespeak-ng/numbers.c:1685:29: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+                                sprintf(string, "_%dn", value);
+                                                  ~~    ^~~~~
+                                                  %ld
+1 warning generated.
+[24/45] Building CXX object espeakng/src/speechPlayer/CMakeFiles/speechPlayer.dir/src/speechPlayer.cpp.o
+[25/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/soundicon.c.o
+[26/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/spect.c.o
+[27/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/dictionary.c.o
+[28/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/synthdata.c.o
+[29/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/ssml.c.o
+[30/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/tr_languages.c.o
+[31/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/synthesize.c.o
+[32/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/translateword.c.o
+[33/45] Building CXX object espeakng/src/speechPlayer/CMakeFiles/speechPlayer.dir/src/speechWaveGenerator.cpp.o
+[34/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/voices.c.o
+[35/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/translate.c.o
+[36/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/espeak_api.c.o
+[37/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/wavegen.c.o
+[38/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/sPlayer.c.o
+[39/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/speech.c.o
+[40/45] Building C object espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/klatt.c.o
+[41/45] Building CXX object espeakng/src/speechPlayer/CMakeFiles/speechPlayer.dir/src/frame.cpp.o
+[42/45] Linking CXX static library espeakng/src/speechPlayer/libspeechPlayer.a
+[43/45] Linking CXX static library espeakng/src/libespeak-ng/libespeak-ng.a
+[44/45] Linking CXX shared library /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/x86/libttsespeak.so
+[45/45] cd /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86 && /Users/yyjhou/Library/Android/sdk/cmake/3.22.1/bin/cmake -B/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/../espeak-data /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/jni/../../ && /Users/yyjhou/Library/Android/sdk/cmake/3.22.1/bin/cmake --build /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/../espeak-data --target data && /Users/yyjhou/Library/Android/sdk/cmake/3.22.1/bin/cmake -E copy_directory /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/../espeak-data/espeak-ng-data /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/jni/../build/generated/espeak-ng-data
+-- Configuration:
+--   shared: OFF
+--   mbrola: OFF (MBROLA_BIN-NOTFOUND)
+--   libsonic: ON (sonic /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/espeak-data/_deps/sonic-git-src)
+--   libpcaudio: OFF (PCAUDIO_LIB-NOTFOUND PCAUDIO_INC-NOTFOUND)
+--   klatt: ON
+--   speech-player: ON
+--   async: ON
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/espeak-data
+Consolidate compiler generated dependencies of target speechPlayer
+[  3%] Built target speechPlayer
+Consolidate compiler generated dependencies of target sonic
+[  4%] Built target sonic
+Consolidate compiler generated dependencies of target ucd
+[  9%] Built target ucd
+Consolidate compiler generated dependencies of target espeak-ng
+[ 29%] Built target espeak-ng
+Consolidate compiler generated dependencies of target espeak-ng-bin
+[ 30%] Built target espeak-ng-bin
+[100%] Built target data

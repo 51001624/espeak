@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/drawable-xhdpi_icon_foreground.png.flat",
+        "source": "com.reecedunn.espeak-pngs-0:/drawable-xhdpi/icon_foreground.png"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/layout_seekbar_preference.xml.flat",
+        "source": "com.reecedunn.espeak-android-6:/layout/seekbar_preference.xml"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/menu_options.xml.flat",
+        "source": "com.reecedunn.espeak-android-6:/menu/options.xml"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/mipmap-hdpi_icon.png.flat",
+        "source": "com.reecedunn.espeak-android-6:/mipmap-hdpi/icon.png"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/layout_download_voice_data.xml.flat",
+        "source": "com.reecedunn.espeak-android-6:/layout/download_voice_data.xml"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/layout_information_view.xml.flat",
+        "source": "com.reecedunn.espeak-android-6:/layout/information_view.xml"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/raw_espeakdata_version.flat",
+        "source": "com.reecedunn.espeak-android-6:/raw/espeakdata_version"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/mipmap-xhdpi_icon.png.flat",
+        "source": "com.reecedunn.espeak-android-6:/mipmap-xhdpi/icon.png"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/xml_tts_engine.xml.flat",
+        "source": "com.reecedunn.espeak-android-6:/xml/tts_engine.xml"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/xml_preferences.xml.flat",
+        "source": "com.reecedunn.espeak-android-6:/xml/preferences.xml"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/mipmap-xxhdpi_icon.png.flat",
+        "source": "com.reecedunn.espeak-android-6:/mipmap-xxhdpi/icon.png"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/drawable-ldpi_icon_foreground.png.flat",
+        "source": "com.reecedunn.espeak-pngs-0:/drawable-ldpi/icon_foreground.png"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/drawable-anydpi-v21_icon_foreground.xml.flat",
+        "source": "com.reecedunn.espeak-pngs-0:/drawable-anydpi-v21/icon_foreground.xml"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/mipmap-mdpi_icon.png.flat",
+        "source": "com.reecedunn.espeak-android-6:/mipmap-mdpi/icon.png"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/layout_main.xml.flat",
+        "source": "com.reecedunn.espeak-android-6:/layout/main.xml"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/raw_espeakdata.zip.flat",
+        "source": "com.reecedunn.espeak-android-6:/raw/espeakdata.zip"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/drawable-mdpi_icon_foreground.png.flat",
+        "source": "com.reecedunn.espeak-pngs-0:/drawable-mdpi/icon_foreground.png"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/layout_speak_punctuation_preference.xml.flat",
+        "source": "com.reecedunn.espeak-android-6:/layout/speak_punctuation_preference.xml"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/drawable-hdpi_icon_foreground.png.flat",
+        "source": "com.reecedunn.espeak-pngs-0:/drawable-hdpi/icon_foreground.png"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/mipmap-anydpi-v26_icon.xml.flat",
+        "source": "com.reecedunn.espeak-android-6:/mipmap-anydpi-v26/icon.xml"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/mipmap-xxxhdpi_icon.png.flat",
+        "source": "com.reecedunn.espeak-android-6:/mipmap-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/layout_voice_variant_preference.xml.flat",
+        "source": "com.reecedunn.espeak-android-6:/layout/voice_variant_preference.xml"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/drawable-xxxhdpi_icon_foreground.png.flat",
+        "source": "com.reecedunn.espeak-pngs-0:/drawable-xxxhdpi/icon_foreground.png"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/drawable-xxhdpi_icon_foreground.png.flat",
+        "source": "com.reecedunn.espeak-pngs-0:/drawable-xxhdpi/icon_foreground.png"
+    },
+    {
+        "merged": "com.reecedunn.espeak-merged_res-5:/layout_import_voice_preference.xml.flat",
+        "source": "com.reecedunn.espeak-android-6:/layout/import_voice_preference.xml"
+    }
+]

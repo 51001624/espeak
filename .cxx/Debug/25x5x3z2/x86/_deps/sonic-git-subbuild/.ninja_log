@@ -1,0 +1,21 @@
+# ninja log v5
+1	59	1690178618283565455	sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-mkdir	bd4faa5136f731e5
+1	59	1690178618283565455	/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-mkdir	bd4faa5136f731e5
+59	2750	1690178620975266007	sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-download	f7907ac57c1420c7
+59	2750	1690178620975266007	/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-download	f7907ac57c1420c7
+2750	2793	0	sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-update	93fa82680be716c0
+2750	2793	0	/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-update	93fa82680be716c0
+2793	2807	1690178621031566095	sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-patch	5b070b492c2cd64d
+2793	2807	1690178621031566095	/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-patch	5b070b492c2cd64d
+2807	2820	1690178621045266623	sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-configure	ac549775989ab25f
+2807	2820	1690178621045266623	/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-configure	ac549775989ab25f
+2820	2834	1690178621059175445	sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-build	64552d988baae248
+2820	2834	1690178621059175445	/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-build	64552d988baae248
+2834	2848	1690178621072671209	sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-install	d1dcd209b8a7b2ec
+2834	2848	1690178621072671209	/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-install	d1dcd209b8a7b2ec
+2848	2861	1690178621086124453	sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-test	735ad2b7bd3d4fff
+2848	2861	1690178621086124453	/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-test	735ad2b7bd3d4fff
+2861	2881	1690178621105844889	CMakeFiles/sonic-git-populate-complete	fbbe2cb8c57a2dc5
+2861	2881	1690178621105844889	sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-done	fbbe2cb8c57a2dc5
+2861	2881	1690178621105844889	/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/_deps/sonic-git-subbuild/CMakeFiles/sonic-git-populate-complete	fbbe2cb8c57a2dc5
+2861	2881	1690178621105844889	/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-done	fbbe2cb8c57a2dc5

@@ -1,0 +1,552 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						29,
+						40
+					]
+				},
+				{
+					"build" : "espeakng",
+					"childIndexes" : 
+					[
+						2,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-espeakng-Debug-273db56561bad3810dd7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						32
+					]
+				},
+				{
+					"build" : "espeakng/src",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-espeakng.src-Debug-90bb4f840bd0d43c1025.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src",
+					"targetIndexes" : 
+					[
+						31,
+						33
+					]
+				},
+				{
+					"build" : "espeakng/src/ucd-tools",
+					"jsonFile" : "directory-espeakng.src.ucd-tools-Debug-a716c1f4043496878f89.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/ucd-tools",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "espeakng/src/speechPlayer",
+					"jsonFile" : "directory-espeakng.src.speechPlayer-Debug-def00d28ba24a635e9ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/speechPlayer",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "espeakng/src/libespeak-ng",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-espeakng.src.libespeak-ng-Debug-6d5d255d2caffd524a50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/libespeak-ng",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "espeakng/tests",
+					"jsonFile" : "directory-espeakng.tests-Debug-2c0f067025c963bf67c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/tests",
+					"targetIndexes" : 
+					[
+						35,
+						36,
+						37,
+						38,
+						39
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "espeak-android",
+					"targetIndexes" : 
+					[
+						29,
+						40
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "espeak-ng",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						41
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Continuous::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-Continuous-Debug-bc6c5e87b647bd1727ce.json",
+					"name" : "Continuous",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousBuild::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-ContinuousBuild-Debug-5977268bfdd4853411bb.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousConfigure::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-ContinuousConfigure-Debug-12d465df2dfc74dbdfa0.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousCoverage::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-ContinuousCoverage-Debug-bd769370c9825851682e.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousMemCheck::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-ContinuousMemCheck-Debug-a6091c9440175ca016a5.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousStart::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-ContinuousStart-Debug-0eedbb51c0e96611c040.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousSubmit::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-ContinuousSubmit-Debug-e02a59035a0b56f4377b.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousTest::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-ContinuousTest-Debug-be33cfad3b3cedd6120f.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousUpdate::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-ContinuousUpdate-Debug-72f33e69c174208bfa2e.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Experimental::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-Experimental-Debug-ea60a129815cd477dc60.json",
+					"name" : "Experimental",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalBuild::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-ExperimentalBuild-Debug-9dbc4df2d1803b637311.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalConfigure::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-ExperimentalConfigure-Debug-6534282937f8c029589b.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalCoverage::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-ExperimentalCoverage-Debug-4eaa7ad81e2736cc38bb.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalMemCheck::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-ExperimentalMemCheck-Debug-97b3e76abb175c4c39b1.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalStart::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-ExperimentalStart-Debug-4fc6d7dd7eef3eec1e5c.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalSubmit::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-ExperimentalSubmit-Debug-b2e57f231f86dd9c1dc2.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalTest::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-ExperimentalTest-Debug-385c04769b1af0ca5a9d.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalUpdate::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-ExperimentalUpdate-Debug-33311b176dd832c757ca.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Nightly::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-Nightly-Debug-6f593b6e79bee25a0794.json",
+					"name" : "Nightly",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyBuild::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-NightlyBuild-Debug-fbf651ff42a4bc1d059a.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyConfigure::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-NightlyConfigure-Debug-f9defcf5e28558c2543a.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyCoverage::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-NightlyCoverage-Debug-fa69b0847e696220b0ea.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyMemCheck::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-NightlyMemCheck-Debug-8b0e71c1dfd4e4a80ac9.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyMemoryCheck::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-eb11163fbd3610dc2505.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyStart::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-NightlyStart-Debug-8e489ec4c3774cf0efbb.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlySubmit::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-NightlySubmit-Debug-be75bfcd709c9c5aff40.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyTest::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-NightlyTest-Debug-e2bca452945b3ce8bfd2.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyUpdate::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-NightlyUpdate-Debug-ac29e5bc452c500543a2.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "data::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-data-Debug-e06d4e1ea29b4e921220.json",
+					"name" : "data",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "espeak-data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-espeak-data-Debug-aa4b9575312957196059.json",
+					"name" : "espeak-data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "espeak-ng::@e046f2f3bd29d6755149",
+					"jsonFile" : "target-espeak-ng-Debug-cfb52ef8aaa9a1b0ad6a.json",
+					"name" : "espeak-ng",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "espeak-ng-bin::@95a728b4f3aad62a9831",
+					"jsonFile" : "target-espeak-ng-bin-Debug-0c47e3b7de6686ce64e6.json",
+					"name" : "espeak-ng-bin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sonic::@0dc7d99ad09a4f3a10d7",
+					"jsonFile" : "target-sonic-Debug-f33cc073843aafab4d9d.json",
+					"name" : "sonic",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "speak-ng::@95a728b4f3aad62a9831",
+					"jsonFile" : "target-speak-ng-Debug-e74d2fdd51e6646809c6.json",
+					"name" : "speak-ng",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "speechPlayer::@abb330ab1e88cd9d83ba",
+					"jsonFile" : "target-speechPlayer-Debug-a2b3a4fd996073b0ec24.json",
+					"name" : "speechPlayer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "test_api::@06408db089cd05d322ab",
+					"jsonFile" : "target-test_api-Debug-6caabefe37ac1562e8d7.json",
+					"name" : "test_api",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "test_encoding::@06408db089cd05d322ab",
+					"jsonFile" : "target-test_encoding-Debug-b3a1eaf5e1254cfe0c21.json",
+					"name" : "test_encoding",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "test_ieee80::@06408db089cd05d322ab",
+					"jsonFile" : "target-test_ieee80-Debug-afbf5c338773bc3be0cd.json",
+					"name" : "test_ieee80",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "test_readclause::@06408db089cd05d322ab",
+					"jsonFile" : "target-test_readclause-Debug-a2669877a63406be3114.json",
+					"name" : "test_readclause",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "tests::@06408db089cd05d322ab",
+					"jsonFile" : "target-tests-Debug-571f648fd08693e88da8.json",
+					"name" : "tests",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ttsespeak::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ttsespeak-Debug-ac30e30f2c8b3f864a3b.json",
+					"name" : "ttsespeak",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ucd::@fccac0a444254dedfd66",
+					"jsonFile" : "target-ucd-Debug-8cda289f3da72960e640.json",
+					"name" : "ucd",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86",
+		"source" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/jni"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

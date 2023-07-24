@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.reecedunn.espeak-mergeDebugResources-3:/values-sr/values-sr.xml",
+            "map": [
+                {
+                    "source": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/res/values-sr/strings.xml",
+                    "from": {
+                        "startLines": "28,25,34,22,13,37,40,16,7,10,31,4,19",
+                        "startColumns": "2,2,2,2,2,2,2,2,2,2,2,2,2",
+                        "startOffsets": "1737,1564,2070,1375,676,2243,2418,887,323,506,1909,140,1133",
+                        "endColumns": "65,63,63,73,81,57,89,124,66,69,61,66,121",
+                        "endOffsets": "1800,1625,2131,1446,755,2298,2505,1009,387,573,1968,204,1252"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,189,255,331,415,475,567,694,763,835,899,968",
+                        "endColumns": "67,65,65,75,83,59,91,126,68,71,63,68,123",
+                        "endOffsets": "118,184,250,326,410,470,562,689,758,830,894,963,1087"
+                    }
+                }
+            ]
+        }
+    ]
+}

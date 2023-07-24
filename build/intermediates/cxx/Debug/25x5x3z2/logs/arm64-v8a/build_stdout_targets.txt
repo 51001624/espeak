@@ -1,0 +1,24 @@
+ninja: Entering directory `/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/arm64-v8a'
+[1/1] cd /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/arm64-v8a && /Users/yyjhou/Library/Android/sdk/cmake/3.22.1/bin/cmake -B/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/arm64-v8a/../espeak-data /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/jni/../../ && /Users/yyjhou/Library/Android/sdk/cmake/3.22.1/bin/cmake --build /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/arm64-v8a/../espeak-data --target data && /Users/yyjhou/Library/Android/sdk/cmake/3.22.1/bin/cmake -E copy_directory /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/arm64-v8a/../espeak-data/espeak-ng-data /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/jni/../build/generated/espeak-ng-data
+-- Configuration:
+--   shared: OFF
+--   mbrola: OFF (MBROLA_BIN-NOTFOUND)
+--   libsonic: ON (sonic /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/espeak-data/_deps/sonic-git-src)
+--   libpcaudio: OFF (PCAUDIO_LIB-NOTFOUND PCAUDIO_INC-NOTFOUND)
+--   klatt: ON
+--   speech-player: ON
+--   async: ON
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/espeak-data
+Consolidate compiler generated dependencies of target speechPlayer
+[  3%] Built target speechPlayer
+Consolidate compiler generated dependencies of target sonic
+[  4%] Built target sonic
+Consolidate compiler generated dependencies of target ucd
+[  9%] Built target ucd
+Consolidate compiler generated dependencies of target espeak-ng
+[ 29%] Built target espeak-ng
+Consolidate compiler generated dependencies of target espeak-ng-bin
+[ 30%] Built target espeak-ng-bin
+[100%] Built target data

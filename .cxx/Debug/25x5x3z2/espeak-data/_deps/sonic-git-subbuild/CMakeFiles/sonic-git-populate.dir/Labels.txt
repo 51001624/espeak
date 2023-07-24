@@ -1,0 +1,14 @@
+# Target labels
+ sonic-git-populate
+# Source files and their labels
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/espeak-data/_deps/sonic-git-subbuild/CMakeFiles/sonic-git-populate
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/espeak-data/_deps/sonic-git-subbuild/CMakeFiles/sonic-git-populate.rule
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/espeak-data/_deps/sonic-git-subbuild/CMakeFiles/sonic-git-populate-complete.rule
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/espeak-data/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-build.rule
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/espeak-data/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-configure.rule
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/espeak-data/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-download.rule
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/espeak-data/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-install.rule
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/espeak-data/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-mkdir.rule
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/espeak-data/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-patch.rule
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/espeak-data/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-test.rule
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/espeak-data/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/sonic-git-populate-update.rule

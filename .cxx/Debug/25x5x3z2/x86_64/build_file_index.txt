@@ -1,0 +1,7 @@
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/CMakeLists.txt
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/jni/CMakeLists.txt
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/CMakeLists.txt
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/libespeak-ng/CMakeLists.txt
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/speechPlayer/CMakeLists.txt
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/ucd-tools/CMakeLists.txt
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/tests/CMakeLists.txt

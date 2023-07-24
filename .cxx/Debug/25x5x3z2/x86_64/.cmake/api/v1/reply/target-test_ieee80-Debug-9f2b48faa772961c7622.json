@@ -1,0 +1,433 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/x86_64/test_ieee80"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"compiled_test",
+			"target_link_libraries",
+			"add_dependencies",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/Users/yyjhou/Desktop/Ying/espeak-ng-master/tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIE"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "LIBESPEAK_NG_EXPORT=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/libespeak-ng"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/libespeak-ng/include/compat"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/include/compat"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/speechPlayer/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/_deps/sonic-git-src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/ucd-tools/src/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				29
+			],
+			"sysroot" : 
+			{
+				"path" : "/Users/yyjhou/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "sonic::@0dc7d99ad09a4f3a10d7"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "data::@0dc7d99ad09a4f3a10d7"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ucd::@fccac0a444254dedfd66"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "speechPlayer::@abb330ab1e88cd9d83ba"
+		},
+		{
+			"id" : "espeak-ng::@e046f2f3bd29d6755149"
+		}
+	],
+	"id" : "test_ieee80::@06408db089cd05d322ab",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "espeakng/src/speechPlayer/libspeechPlayer.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "espeakng/src/ucd-tools/libucd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/Users/yyjhou/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+		}
+	},
+	"name" : "test_ieee80",
+	"nameOnDisk" : "test_ieee80",
+	"paths" : 
+	{
+		"build" : "espeakng/tests",
+		"source" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				30
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				29
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/common.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/mnemonics.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/error.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/ieee80.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/compiledata.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/compiledict.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/dictionary.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/encoding.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/intonation.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/langopts.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/numbers.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/phoneme.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/phonemelist.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/readclause.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/setlengths.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/soundicon.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/spect.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/ssml.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/synthdata.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/synthesize.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/tr_languages.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/translate.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/translateword.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/voices.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/wavegen.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/speech.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/espeak_api.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/klatt.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/src/libespeak-ng/CMakeFiles/espeak-ng.dir/sPlayer.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/tests/ieee80.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86_64/espeakng/CMakeFiles/sonic.dir/android/.cxx/Debug/25x5x3z2/x86_64/_deps/sonic-git-src/sonic.c.o",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

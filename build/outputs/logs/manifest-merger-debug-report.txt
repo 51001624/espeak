@@ -1,0 +1,153 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:2:1-83:12
+INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:2:1-83:12
+INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:2:1-83:12
+INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:2:1-83:12
+INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:2:1-83:12
+INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:2:1-83:12
+INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:2:1-83:12
+	package
+		INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:2:1-83:12
+		INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:4:5-35
+		INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml
+		INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:3:5-29
+		INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml
+		INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:6:5-8:36
+	android:required
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:8:9-33
+	android:name
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:7:9-52
+application
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:10:5-81:19
+	android:label
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:12:9-36
+	android:theme
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:13:9-40
+	android:name
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:11:9-54
+service#com.reecedunn.espeak.TtsService
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:15:9-29:19
+	android:label
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:17:13-45
+	android:exported
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:19:13-36
+	android:directBootAware
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:18:13-43
+	android:name
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:16:13-39
+intent-filter#action:name:android.intent.action.TTS_SERVICE+category:name:android.intent.category.DEFAULT
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.TTS_SERVICE
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:21:25-73
+category#android.intent.category.DEFAULT
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:23:17-76
+	android:name
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:23:27-73
+meta-data#android.speech.tts
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:26:13-28:54
+	android:resource
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:28:17-51
+	android:name
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:27:17-50
+activity#com.reecedunn.espeak.DownloadVoiceData
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:31:9-40:20
+	android:exported
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:34:13-36
+	android:theme
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:32:13-46
+intent-filter#action:name:android.speech.tts.engine.INSTALL_TTS_DATA+category:name:android.intent.category.DEFAULT
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:35:13-39:29
+action#android.speech.tts.engine.INSTALL_TTS_DATA
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:36:17-85
+	android:name
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:36:25-82
+activity#com.reecedunn.espeak.CheckVoiceData
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:44:13-36
+	android:theme
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:43:13-72
+	android:name
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:42:13-43
+intent-filter#action:name:android.speech.tts.engine.CHECK_TTS_DATA+category:name:android.intent.category.DEFAULT
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:45:13-49:29
+action#android.speech.tts.engine.CHECK_TTS_DATA
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:46:17-83
+	android:name
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:46:25-80
+activity#com.reecedunn.espeak.GetSampleText
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:51:9-60:20
+	android:exported
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:54:13-36
+	android:theme
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:53:13-72
+	android:name
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:52:13-42
+intent-filter#action:name:android.speech.tts.engine.GET_SAMPLE_TEXT+category:name:android.intent.category.DEFAULT
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:55:13-59:29
+action#android.speech.tts.engine.GET_SAMPLE_TEXT
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:56:17-84
+	android:name
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:56:25-81
+activity#com.reecedunn.espeak.TtsSettingsActivity
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:61:9-70:20
+	android:label
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:63:13-55
+	android:exported
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:64:13-36
+	android:name
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:62:13-48
+intent-filter#action:name:android.speech.tts.engine.CONFIGURE_ENGINE+category:name:android.intent.category.DEFAULT
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:65:13-69:29
+action#android.speech.tts.engine.CONFIGURE_ENGINE
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:66:17-85
+	android:name
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:66:25-82
+activity#com.reecedunn.espeak.eSpeakActivity
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:71:9-80:20
+	android:label
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:73:13-45
+	android:exported
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:74:13-36
+	android:name
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:72:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:75:13-79:29
+action#android.intent.action.MAIN
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:76:17-69
+	android:name
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:76:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:78:17-77
+	android:name
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:78:27-74
+uses-sdk
+INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml
+INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml
+INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml
+INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml
+		INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml
+		ADDED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml
+		INJECTED from /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml

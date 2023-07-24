@@ -1,0 +1,99 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include"
+		],
+		"files" : 
+		[
+			"/Users/yyjhou/Desktop/Ying/espeak-ng-master/cmake/data.cmake",
+			"/Users/yyjhou/Desktop/Ying/espeak-ng-master/CMakeLists.txt",
+			"/Users/yyjhou/Desktop/Ying/espeak-ng-master/cmake/package.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 33,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "share",
+			"paths" : 
+			[
+				"/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/armeabi-v7a/espeakng/espeak-ng-data"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/armeabi-v7a/espeakng/espeak-ng.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "share/vim/vimfiles",
+			"paths" : 
+			[
+				"/Users/yyjhou/Desktop/Ying/espeak-ng-master/vim/ftdetect",
+				"/Users/yyjhou/Desktop/Ying/espeak-ng-master/vim/syntax"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "espeakng",
+		"source" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master"
+	}
+}

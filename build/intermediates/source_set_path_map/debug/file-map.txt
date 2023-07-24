@@ -1,0 +1,8 @@
+com.reecedunn.espeak-pngs-0 /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/generated/res/pngs/debug
+com.reecedunn.espeak-resValues-1 /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/generated/res/resValues/debug
+com.reecedunn.espeak-rs-2 /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/generated/res/rs/debug
+com.reecedunn.espeak-mergeDebugResources-3 /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.reecedunn.espeak-mergeDebugResources-4 /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.reecedunn.espeak-merged_res-5 /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/merged_res/debug
+com.reecedunn.espeak-android-6 /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/res
+com.reecedunn.espeak-debug-7 /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/src/debug/res

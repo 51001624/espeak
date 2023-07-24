@@ -1,0 +1,62 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/arm64-v8a/espeak-ng"
+			],
+			"targetId" : "espeak-ng-bin::@95a728b4f3aad62a9831",
+			"targetIndex" : 31,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/include/espeak",
+				"/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/include/espeak-ng"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "espeakng/src",
+		"source" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src"
+	}
+}

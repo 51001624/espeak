@@ -1,0 +1,5 @@
+/Users/yyjhou/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86 \
+  espeak-data \
+  ttsespeak

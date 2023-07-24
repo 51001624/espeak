@@ -1,0 +1,158 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.reecedunn.espeak"
+4    android:versionCode="22"
+5    android:versionName="1.52-dev" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml
+10
+11    <uses-feature
+11-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:6:5-8:36
+12        android:name="android.hardware.touchscreen"
+12-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:7:9-52
+13        android:required="false" />
+13-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:8:9-33
+14
+15    <application
+15-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:10:5-81:19
+16        android:name="com.reecedunn.espeak.EspeakApp"
+16-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:11:9-54
+17        android:debuggable="true"
+18        android:icon="@mipmap/icon"
+18-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:12:9-36
+19        android:label="@string/app_name"
+19-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:14:9-41
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:13:9-40
+22        <service
+22-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:15:9-29:19
+23            android:name="com.reecedunn.espeak.TtsService"
+23-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:16:13-39
+24            android:directBootAware="true"
+24-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:18:13-43
+25            android:exported="true"
+25-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:19:13-36
+26            android:label="@string/app_name" >
+26-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:17:13-45
+27            <intent-filter>
+27-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:20:13-24:29
+28                <action android:name="android.intent.action.TTS_SERVICE" />
+28-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:21:17-76
+28-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:21:25-73
+29
+30                <category android:name="android.intent.category.DEFAULT" />
+30-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:23:17-76
+30-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:23:27-73
+31            </intent-filter>
+32
+33            <meta-data
+33-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:26:13-28:54
+34                android:name="android.speech.tts"
+34-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:27:17-50
+35                android:resource="@xml/tts_engine" />
+35-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:28:17-51
+36        </service>
+37
+38        <activity
+38-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:31:9-40:20
+39            android:name="com.reecedunn.espeak.DownloadVoiceData"
+39-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:32:13-46
+40            android:exported="true"
+40-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:34:13-36
+41            android:theme="@android:style/Theme.Dialog" >
+41-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:33:13-56
+42            <intent-filter>
+42-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:35:13-39:29
+43                <action android:name="android.speech.tts.engine.INSTALL_TTS_DATA" />
+43-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:36:17-85
+43-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:36:25-82
+44
+45                <category android:name="android.intent.category.DEFAULT" />
+45-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:23:17-76
+45-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:23:27-73
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:41:9-50:20
+49            android:name="com.reecedunn.espeak.CheckVoiceData"
+49-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:42:13-43
+50            android:exported="true"
+50-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:44:13-36
+51            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+51-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:43:13-72
+52            <intent-filter>
+52-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:45:13-49:29
+53                <action android:name="android.speech.tts.engine.CHECK_TTS_DATA" />
+53-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:46:17-83
+53-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:46:25-80
+54
+55                <category android:name="android.intent.category.DEFAULT" />
+55-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:23:17-76
+55-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:23:27-73
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:51:9-60:20
+59            android:name="com.reecedunn.espeak.GetSampleText"
+59-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:52:13-42
+60            android:exported="true"
+60-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:54:13-36
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+61-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:53:13-72
+62            <intent-filter>
+62-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:55:13-59:29
+63                <action android:name="android.speech.tts.engine.GET_SAMPLE_TEXT" />
+63-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:56:17-84
+63-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:56:25-81
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:23:17-76
+65-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:23:27-73
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:61:9-70:20
+69            android:name="com.reecedunn.espeak.TtsSettingsActivity"
+69-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:62:13-48
+70            android:exported="true"
+70-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:64:13-36
+71            android:label="@string/tts_settings_label" >
+71-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:63:13-55
+72            <intent-filter>
+72-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:65:13-69:29
+73                <action android:name="android.speech.tts.engine.CONFIGURE_ENGINE" />
+73-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:66:17-85
+73-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:66:25-82
+74
+75                <category android:name="android.intent.category.DEFAULT" />
+75-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:23:17-76
+75-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:23:27-73
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:71:9-80:20
+79            android:name="com.reecedunn.espeak.eSpeakActivity"
+79-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:72:13-43
+80            android:exported="true"
+80-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:74:13-36
+81            android:label="@string/app_name" >
+81-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:73:13-45
+82            <intent-filter>
+82-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:75:13-79:29
+83                <action android:name="android.intent.action.MAIN" />
+83-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:76:17-69
+83-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:76:25-66
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+85-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:78:17-77
+85-->/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/AndroidManifest.xml:78:27-74
+86            </intent-filter>
+87        </activity>
+88    </application>
+89
+90</manifest>

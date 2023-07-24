@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "espeakng/src/ucd-tools",
+		"source" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/ucd-tools"
+	}
+}

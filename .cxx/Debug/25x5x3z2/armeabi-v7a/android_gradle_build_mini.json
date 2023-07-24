@@ -1,0 +1,246 @@
+{
+  "buildFiles": [
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/CMakeLists.txt",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/jni/CMakeLists.txt",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/CMakeLists.txt",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/libespeak-ng/CMakeLists.txt",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/speechPlayer/CMakeLists.txt",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/ucd-tools/CMakeLists.txt",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/tests/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/yyjhou/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/yyjhou/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "NightlyConfigure::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "NightlyConfigure",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "NightlyStart::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "NightlyStart",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "Continuous::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "Continuous",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "ExperimentalUpdate::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ExperimentalUpdate",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "Nightly::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "Nightly",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "ContinuousSubmit::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ContinuousSubmit",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "ExperimentalMemCheck::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ExperimentalMemCheck",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "data::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "data",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "speak-ng::@95a728b4f3aad62a9831": {
+      "artifactName": "speak-ng",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "ExperimentalSubmit::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ExperimentalSubmit",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "NightlyBuild::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "NightlyBuild",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "ttsespeak::@6890427a1f51a3e7e1df": {
+      "artifactName": "ttsespeak",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/armeabi-v7a/libttsespeak.so",
+      "runtimeFiles": []
+    },
+    "espeak-data::@6890427a1f51a3e7e1df": {
+      "artifactName": "espeak-data",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "espeak-ng-bin::@95a728b4f3aad62a9831": {
+      "artifactName": "espeak-ng-bin",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/armeabi-v7a/espeak-ng",
+      "runtimeFiles": []
+    },
+    "NightlySubmit::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "NightlySubmit",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "sonic::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "sonic",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "speechPlayer::@abb330ab1e88cd9d83ba": {
+      "artifactName": "speechPlayer",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/armeabi-v7a/espeakng/src/speechPlayer/libspeechPlayer.a",
+      "runtimeFiles": []
+    },
+    "ContinuousMemCheck::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ContinuousMemCheck",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "ExperimentalTest::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ExperimentalTest",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "NightlyTest::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "NightlyTest",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "Experimental::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "Experimental",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "NightlyCoverage::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "NightlyCoverage",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "espeak-ng::@e046f2f3bd29d6755149": {
+      "artifactName": "espeak-ng",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/armeabi-v7a/espeakng/src/libespeak-ng/libespeak-ng.a",
+      "runtimeFiles": []
+    },
+    "ContinuousTest::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ContinuousTest",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "test_api::@06408db089cd05d322ab": {
+      "artifactName": "test_api",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/armeabi-v7a/test_api",
+      "runtimeFiles": []
+    },
+    "ContinuousCoverage::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ContinuousCoverage",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "NightlyMemoryCheck::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "NightlyMemoryCheck",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "ContinuousBuild::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ContinuousBuild",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "ExperimentalCoverage::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ExperimentalCoverage",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "ExperimentalBuild::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ExperimentalBuild",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "NightlyUpdate::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "NightlyUpdate",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "ContinuousConfigure::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ContinuousConfigure",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "ContinuousStart::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ContinuousStart",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "tests::@06408db089cd05d322ab": {
+      "artifactName": "tests",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "NightlyMemCheck::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "NightlyMemCheck",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "ContinuousUpdate::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ContinuousUpdate",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "ExperimentalConfigure::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ExperimentalConfigure",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "test_readclause::@06408db089cd05d322ab": {
+      "artifactName": "test_readclause",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/armeabi-v7a/test_readclause",
+      "runtimeFiles": []
+    },
+    "test_ieee80::@06408db089cd05d322ab": {
+      "artifactName": "test_ieee80",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/armeabi-v7a/test_ieee80",
+      "runtimeFiles": []
+    },
+    "ucd::@fccac0a444254dedfd66": {
+      "artifactName": "ucd",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/armeabi-v7a/espeakng/src/ucd-tools/libucd.a",
+      "runtimeFiles": []
+    },
+    "ExperimentalStart::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ExperimentalStart",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
+    "test_encoding::@06408db089cd05d322ab": {
+      "artifactName": "test_encoding",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/armeabi-v7a/test_encoding",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "buildFiles": [
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/CMakeLists.txt",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/jni/CMakeLists.txt",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/CMakeLists.txt",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/libespeak-ng/CMakeLists.txt",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/speechPlayer/CMakeLists.txt",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/ucd-tools/CMakeLists.txt",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/tests/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/yyjhou/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/yyjhou/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "Continuous::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "Continuous"
+    },
+    "ContinuousBuild::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ContinuousBuild"
+    },
+    "ContinuousConfigure::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ContinuousConfigure"
+    },
+    "ContinuousCoverage::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ContinuousCoverage"
+    },
+    "ContinuousMemCheck::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ContinuousMemCheck"
+    },
+    "ContinuousStart::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ContinuousStart"
+    },
+    "ContinuousSubmit::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ContinuousSubmit"
+    },
+    "ContinuousTest::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ContinuousTest"
+    },
+    "ContinuousUpdate::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ContinuousUpdate"
+    },
+    "Experimental::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "Experimental"
+    },
+    "ExperimentalBuild::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ExperimentalBuild"
+    },
+    "ExperimentalConfigure::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ExperimentalConfigure"
+    },
+    "ExperimentalCoverage::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ExperimentalCoverage"
+    },
+    "ExperimentalMemCheck::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ExperimentalMemCheck"
+    },
+    "ExperimentalStart::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ExperimentalStart"
+    },
+    "ExperimentalSubmit::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ExperimentalSubmit"
+    },
+    "ExperimentalTest::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ExperimentalTest"
+    },
+    "ExperimentalUpdate::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ExperimentalUpdate"
+    },
+    "Nightly::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "Nightly"
+    },
+    "NightlyBuild::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "NightlyBuild"
+    },
+    "NightlyConfigure::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "NightlyConfigure"
+    },
+    "NightlyCoverage::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "NightlyCoverage"
+    },
+    "NightlyMemCheck::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "NightlyMemCheck"
+    },
+    "NightlyMemoryCheck::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "NightlyMemoryCheck"
+    },
+    "NightlyStart::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "NightlyStart"
+    },
+    "NightlySubmit::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "NightlySubmit"
+    },
+    "NightlyTest::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "NightlyTest"
+    },
+    "NightlyUpdate::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "NightlyUpdate"
+    },
+    "data::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "data"
+    },
+    "espeak-data::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "espeak-data"
+    },
+    "espeak-ng::@e046f2f3bd29d6755149": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "espeak-ng",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/arm64-v8a/espeakng/src/libespeak-ng/libespeak-ng.a"
+    },
+    "espeak-ng-bin::@95a728b4f3aad62a9831": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "espeak-ng-bin",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/arm64-v8a/espeak-ng",
+      "runtimeFiles": []
+    },
+    "sonic::@0dc7d99ad09a4f3a10d7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "sonic"
+    },
+    "speak-ng::@95a728b4f3aad62a9831": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "speak-ng"
+    },
+    "speechPlayer::@abb330ab1e88cd9d83ba": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "speechPlayer",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/arm64-v8a/espeakng/src/speechPlayer/libspeechPlayer.a"
+    },
+    "test_api::@06408db089cd05d322ab": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "test_api",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/arm64-v8a/test_api",
+      "runtimeFiles": []
+    },
+    "test_encoding::@06408db089cd05d322ab": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "test_encoding",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/arm64-v8a/test_encoding",
+      "runtimeFiles": []
+    },
+    "test_ieee80::@06408db089cd05d322ab": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "test_ieee80",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/arm64-v8a/test_ieee80",
+      "runtimeFiles": []
+    },
+    "test_readclause::@06408db089cd05d322ab": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "test_readclause",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/arm64-v8a/test_readclause",
+      "runtimeFiles": []
+    },
+    "tests::@06408db089cd05d322ab": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "tests"
+    },
+    "ttsespeak::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ttsespeak",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/arm64-v8a/libttsespeak.so",
+      "runtimeFiles": []
+    },
+    "ucd::@fccac0a444254dedfd66": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ucd",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/arm64-v8a/espeakng/src/ucd-tools/libucd.a"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/yyjhou/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/yyjhou/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

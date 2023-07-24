@@ -1,0 +1,246 @@
+{
+  "buildFiles": [
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/CMakeLists.txt",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/jni/CMakeLists.txt",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/CMakeLists.txt",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/libespeak-ng/CMakeLists.txt",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/speechPlayer/CMakeLists.txt",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/ucd-tools/CMakeLists.txt",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/tests/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/yyjhou/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/yyjhou/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "NightlyConfigure::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "NightlyConfigure",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "NightlyStart::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "NightlyStart",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "Continuous::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "Continuous",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "ExperimentalUpdate::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ExperimentalUpdate",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "Nightly::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "Nightly",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "ContinuousSubmit::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ContinuousSubmit",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "ExperimentalMemCheck::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ExperimentalMemCheck",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "data::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "data",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "speak-ng::@95a728b4f3aad62a9831": {
+      "artifactName": "speak-ng",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "ExperimentalSubmit::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ExperimentalSubmit",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "NightlyBuild::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "NightlyBuild",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "ttsespeak::@6890427a1f51a3e7e1df": {
+      "artifactName": "ttsespeak",
+      "abi": "x86",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/x86/libttsespeak.so",
+      "runtimeFiles": []
+    },
+    "espeak-data::@6890427a1f51a3e7e1df": {
+      "artifactName": "espeak-data",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "espeak-ng-bin::@95a728b4f3aad62a9831": {
+      "artifactName": "espeak-ng-bin",
+      "abi": "x86",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/x86/espeak-ng",
+      "runtimeFiles": []
+    },
+    "NightlySubmit::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "NightlySubmit",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "sonic::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "sonic",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "speechPlayer::@abb330ab1e88cd9d83ba": {
+      "artifactName": "speechPlayer",
+      "abi": "x86",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/espeakng/src/speechPlayer/libspeechPlayer.a",
+      "runtimeFiles": []
+    },
+    "ContinuousMemCheck::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ContinuousMemCheck",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "ExperimentalTest::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ExperimentalTest",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "NightlyTest::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "NightlyTest",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "Experimental::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "Experimental",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "NightlyCoverage::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "NightlyCoverage",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "espeak-ng::@e046f2f3bd29d6755149": {
+      "artifactName": "espeak-ng",
+      "abi": "x86",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/espeakng/src/libespeak-ng/libespeak-ng.a",
+      "runtimeFiles": []
+    },
+    "ContinuousTest::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ContinuousTest",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "test_api::@06408db089cd05d322ab": {
+      "artifactName": "test_api",
+      "abi": "x86",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/x86/test_api",
+      "runtimeFiles": []
+    },
+    "ContinuousCoverage::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ContinuousCoverage",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "NightlyMemoryCheck::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "NightlyMemoryCheck",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "ContinuousBuild::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ContinuousBuild",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "ExperimentalCoverage::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ExperimentalCoverage",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "ExperimentalBuild::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ExperimentalBuild",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "NightlyUpdate::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "NightlyUpdate",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "ContinuousConfigure::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ContinuousConfigure",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "ContinuousStart::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ContinuousStart",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "tests::@06408db089cd05d322ab": {
+      "artifactName": "tests",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "NightlyMemCheck::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "NightlyMemCheck",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "ContinuousUpdate::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ContinuousUpdate",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "ExperimentalConfigure::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ExperimentalConfigure",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "test_readclause::@06408db089cd05d322ab": {
+      "artifactName": "test_readclause",
+      "abi": "x86",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/x86/test_readclause",
+      "runtimeFiles": []
+    },
+    "test_ieee80::@06408db089cd05d322ab": {
+      "artifactName": "test_ieee80",
+      "abi": "x86",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/x86/test_ieee80",
+      "runtimeFiles": []
+    },
+    "ucd::@fccac0a444254dedfd66": {
+      "artifactName": "ucd",
+      "abi": "x86",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/espeakng/src/ucd-tools/libucd.a",
+      "runtimeFiles": []
+    },
+    "ExperimentalStart::@0dc7d99ad09a4f3a10d7": {
+      "artifactName": "ExperimentalStart",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "test_encoding::@06408db089cd05d322ab": {
+      "artifactName": "test_encoding",
+      "abi": "x86",
+      "output": "/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/build/intermediates/cxx/Debug/25x5x3z2/obj/x86/test_encoding",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/libespeak-ng/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 130,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"espeakng/src/libespeak-ng/libespeak-ng.a"
+			],
+			"targetId" : "espeak-ng::@e046f2f3bd29d6755149",
+			"targetIndex" : 30,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "espeakng/src/libespeak-ng",
+		"source" : "/Users/yyjhou/Desktop/Ying/espeak-ng-master/src/libespeak-ng"
+	}
+}

@@ -1,0 +1,3 @@
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/_deps/sonic-git-subbuild/CMakeFiles/sonic-git-populate.dir
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/_deps/sonic-git-subbuild/CMakeFiles/edit_cache.dir
+/Users/yyjhou/Desktop/Ying/espeak-ng-master/android/.cxx/Debug/25x5x3z2/x86/_deps/sonic-git-subbuild/CMakeFiles/rebuild_cache.dir
